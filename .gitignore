@@ -1,0 +1,9 @@
+*.pbxuser
+*.mode1v3
+.DS_Store
+xcuserdata
+xcshareddata
+*~
+Pods
+Podfile.lock
+BypassSample.xcworkspace
