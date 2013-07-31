@@ -1,0 +1,3 @@
+[submodule "Libraries/Bypass"]
+	path = Libraries/Bypass
+	url = git@github.com:Uncodin/bypass-ios.git

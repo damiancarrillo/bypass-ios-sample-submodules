@@ -17,32 +17,42 @@
 		5E236A7717A9A4BA009C2003 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236A7617A9A4BA009C2003 /* Default@2x.png */; };
 		5E236A7917A9A4BA009C2003 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236A7817A9A4BA009C2003 /* Default-568h@2x.png */; };
 		5E236A7C17A9A4BA009C2003 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E236A7A17A9A4BA009C2003 /* MainStoryboard.storyboard */; };
-		5E236A9217A9A4BB009C2003 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236A9117A9A4BB009C2003 /* SenTestingKit.framework */; };
-		5E236A9317A9A4BB009C2003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236A6217A9A4BA009C2003 /* UIKit.framework */; };
-		5E236A9417A9A4BB009C2003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236A6417A9A4BA009C2003 /* Foundation.framework */; };
-		5E236A9C17A9A4BB009C2003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E236A9A17A9A4BB009C2003 /* InfoPlist.strings */; };
-		5E236A9F17A9A4BB009C2003 /* BypassSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E236A9E17A9A4BB009C2003 /* BypassSampleTests.m */; };
 		5E236AA917A9A521009C2003 /* iPhone Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236AA817A9A521009C2003 /* iPhone Retina.png */; };
 		5E236AAB17A9A524009C2003 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236AAA17A9A524009C2003 /* iPhone.png */; };
 		5E236AB517A9A598009C2003 /* BPAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB017A9A598009C2003 /* BPAbstractViewController.m */; };
-		5E236AB617A9A598009C2003 /* BPAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB017A9A598009C2003 /* BPAbstractViewController.m */; };
 		5E236AB717A9A598009C2003 /* BPMarkdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */; };
-		5E236AB817A9A598009C2003 /* BPMarkdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */; };
 		5E236AB917A9A598009C2003 /* BPTextViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB417A9A598009C2003 /* BPTextViewController.mm */; };
-		5E236ABA17A9A598009C2003 /* BPTextViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E236AB417A9A598009C2003 /* BPTextViewController.mm */; };
 		5E236ABF17A9B169009C2003 /* BPMarkdownView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236ABB17A9B169009C2003 /* BPMarkdownView.png */; };
 		5E236AC017A9B169009C2003 /* BPMarkdownView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236ABC17A9B169009C2003 /* BPMarkdownView@2x.png */; };
 		5E236AC117A9B169009C2003 /* UITextView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236ABD17A9B169009C2003 /* UITextView.png */; };
 		5E236AC217A9B169009C2003 /* UITextView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E236ABE17A9B169009C2003 /* UITextView@2x.png */; };
+		5E236ACD17A9B5FB009C2003 /* libBypass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236ACA17A9B3DA009C2003 /* libBypass.a */; };
+		5E236AD117A9B696009C2003 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236AD017A9B696009C2003 /* QuartzCore.framework */; };
+		5E236AD317A9B6A2009C2003 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236AD217A9B6A2009C2003 /* CoreText.framework */; };
+		5E236AD517A9B8D1009C2003 /* sample.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5E236AD417A9B8D1009C2003 /* sample.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5E236A9517A9A4BB009C2003 /* PBXContainerItemProxy */ = {
+		5E236AC917A9B3DA009C2003 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5E236A5717A9A4B9009C2003 /* Project object */;
+			containerPortal = 5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ED7EA3F17A31FBD00CC7087;
+			remoteInfo = Bypass;
+		};
+		5E236ACB17A9B3DA009C2003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ED7EA5017A31FBE00CC7087;
+			remoteInfo = BypassTests;
+		};
+		5E236ACE17A9B603009C2003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E236A5E17A9A4BA009C2003;
-			remoteInfo = BypassSample;
+			remoteGlobalIDString = 5ED7EA3E17A31FBD00CC7087;
+			remoteInfo = Bypass;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,30 +65,29 @@
 		5E236A6C17A9A4BA009C2003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E236A6E17A9A4BA009C2003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E236A7017A9A4BA009C2003 /* BypassSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BypassSample-Prefix.pch"; sourceTree = "<group>"; };
-		5E236A7117A9A4BA009C2003 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BPAppDelegate.h; path = BypassSample/BPAppDelegate.h; sourceTree = "<group>"; };
-		5E236A7217A9A4BA009C2003 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BPAppDelegate.m; path = BypassSample/BPAppDelegate.m; sourceTree = "<group>"; };
+		5E236A7117A9A4BA009C2003 /* BPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		5E236A7217A9A4BA009C2003 /* BPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
 		5E236A7417A9A4BA009C2003 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5E236A7617A9A4BA009C2003 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5E236A7817A9A4BA009C2003 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E236A7B17A9A4BA009C2003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5E236A9017A9A4BB009C2003 /* BypassSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BypassSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E236A9117A9A4BB009C2003 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5E236A9917A9A4BB009C2003 /* BypassSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BypassSampleTests-Info.plist"; sourceTree = "<group>"; };
-		5E236A9B17A9A4BB009C2003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E236A9D17A9A4BB009C2003 /* BypassSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BypassSampleTests.h; sourceTree = "<group>"; };
-		5E236A9E17A9A4BB009C2003 /* BypassSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BypassSampleTests.m; sourceTree = "<group>"; };
 		5E236AA817A9A521009C2003 /* iPhone Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Retina.png"; sourceTree = "<group>"; };
 		5E236AAA17A9A524009C2003 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
-		5E236AAF17A9A598009C2003 /* BPAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPAbstractViewController.h; path = "../bypass-ios-sample-cocoapods/BypassSample/BPAbstractViewController.h"; sourceTree = "<group>"; };
-		5E236AB017A9A598009C2003 /* BPAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPAbstractViewController.m; path = "../bypass-ios-sample-cocoapods/BypassSample/BPAbstractViewController.m"; sourceTree = "<group>"; };
-		5E236AB117A9A598009C2003 /* BPMarkdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPMarkdownViewController.h; path = "../bypass-ios-sample-cocoapods/BypassSample/BPMarkdownViewController.h"; sourceTree = "<group>"; };
-		5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPMarkdownViewController.m; path = "../bypass-ios-sample-cocoapods/BypassSample/BPMarkdownViewController.m"; sourceTree = "<group>"; };
-		5E236AB317A9A598009C2003 /* BPTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPTextViewController.h; path = "../bypass-ios-sample-cocoapods/BypassSample/BPTextViewController.h"; sourceTree = "<group>"; };
-		5E236AB417A9A598009C2003 /* BPTextViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BPTextViewController.mm; path = "../bypass-ios-sample-cocoapods/BypassSample/BPTextViewController.mm"; sourceTree = "<group>"; };
+		5E236AAF17A9A598009C2003 /* BPAbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPAbstractViewController.h; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPAbstractViewController.h"; sourceTree = "<group>"; };
+		5E236AB017A9A598009C2003 /* BPAbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPAbstractViewController.m; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPAbstractViewController.m"; sourceTree = "<group>"; };
+		5E236AB117A9A598009C2003 /* BPMarkdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPMarkdownViewController.h; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPMarkdownViewController.h"; sourceTree = "<group>"; };
+		5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPMarkdownViewController.m; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPMarkdownViewController.m"; sourceTree = "<group>"; };
+		5E236AB317A9A598009C2003 /* BPTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPTextViewController.h; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPTextViewController.h"; sourceTree = "<group>"; };
+		5E236AB417A9A598009C2003 /* BPTextViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BPTextViewController.mm; path = "../../bypass-ios-sample-cocoapods/BypassSample/BPTextViewController.mm"; sourceTree = "<group>"; };
 		5E236ABB17A9B169009C2003 /* BPMarkdownView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPMarkdownView.png; sourceTree = "<group>"; };
 		5E236ABC17A9B169009C2003 /* BPMarkdownView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BPMarkdownView@2x.png"; sourceTree = "<group>"; };
 		5E236ABD17A9B169009C2003 /* UITextView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITextView.png; sourceTree = "<group>"; };
 		5E236ABE17A9B169009C2003 /* UITextView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView@2x.png"; sourceTree = "<group>"; };
+		5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bypass.xcodeproj; path = Libraries/Bypass/Bypass.xcodeproj; sourceTree = "<group>"; };
+		5E236AD017A9B696009C2003 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E236AD217A9B6A2009C2003 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5E236AD417A9B8D1009C2003 /* sample.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,16 +98,9 @@
 				5E236A6317A9A4BA009C2003 /* UIKit.framework in Frameworks */,
 				5E236A6517A9A4BA009C2003 /* Foundation.framework in Frameworks */,
 				5E236A6717A9A4BA009C2003 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E236A8C17A9A4BB009C2003 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E236A9217A9A4BB009C2003 /* SenTestingKit.framework in Frameworks */,
-				5E236A9317A9A4BB009C2003 /* UIKit.framework in Frameworks */,
-				5E236A9417A9A4BB009C2003 /* Foundation.framework in Frameworks */,
+				5E236AD117A9B696009C2003 /* QuartzCore.framework in Frameworks */,
+				5E236AD317A9B6A2009C2003 /* CoreText.framework in Frameworks */,
+				5E236ACD17A9B5FB009C2003 /* libBypass.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,14 +110,9 @@
 		5E236A5617A9A4B9009C2003 = {
 			isa = PBXGroup;
 			children = (
-				5E236A7117A9A4BA009C2003 /* BPAppDelegate.h */,
-				5E236A7217A9A4BA009C2003 /* BPAppDelegate.m */,
-				5E236AAE17A9A535009C2003 /* View */,
-				5E236AAD17A9A52E009C2003 /* Controller */,
-				5E236AAC17A9A526009C2003 /* Images */,
 				5E236A6817A9A4BA009C2003 /* BypassSample */,
-				5E236A9717A9A4BB009C2003 /* BypassSampleTests */,
 				5E236A6117A9A4BA009C2003 /* Frameworks */,
+				5E236AC317A9B31A009C2003 /* Libraries */,
 				5E236A6017A9A4BA009C2003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				5E236A5F17A9A4BA009C2003 /* BypassSample.app */,
-				5E236A9017A9A4BB009C2003 /* BypassSampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,10 +128,12 @@
 		5E236A6117A9A4BA009C2003 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E236A6217A9A4BA009C2003 /* UIKit.framework */,
-				5E236A6417A9A4BA009C2003 /* Foundation.framework */,
 				5E236A6617A9A4BA009C2003 /* CoreGraphics.framework */,
+				5E236AD217A9B6A2009C2003 /* CoreText.framework */,
+				5E236A6417A9A4BA009C2003 /* Foundation.framework */,
+				5E236AD017A9B696009C2003 /* QuartzCore.framework */,
 				5E236A9117A9A4BB009C2003 /* SenTestingKit.framework */,
+				5E236A6217A9A4BA009C2003 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +141,17 @@
 		5E236A6817A9A4BA009C2003 /* BypassSample */ = {
 			isa = PBXGroup;
 			children = (
+				5E236A7117A9A4BA009C2003 /* BPAppDelegate.h */,
+				5E236A7217A9A4BA009C2003 /* BPAppDelegate.m */,
+				5E236AAE17A9A535009C2003 /* View */,
+				5E236AAD17A9A52E009C2003 /* Controller */,
+				5E236AAF17A9A598009C2003 /* BPAbstractViewController.h */,
+				5E236AB017A9A598009C2003 /* BPAbstractViewController.m */,
+				5E236AB117A9A598009C2003 /* BPMarkdownViewController.h */,
+				5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */,
+				5E236AB317A9A598009C2003 /* BPTextViewController.h */,
+				5E236AB417A9A598009C2003 /* BPTextViewController.mm */,
+				5E236AAC17A9A526009C2003 /* Images */,
 				5E236A6917A9A4BA009C2003 /* Supporting Files */,
 			);
 			path = BypassSample;
@@ -158,25 +167,7 @@
 				5E236A7417A9A4BA009C2003 /* Default.png */,
 				5E236A7617A9A4BA009C2003 /* Default@2x.png */,
 				5E236A7817A9A4BA009C2003 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5E236A9717A9A4BB009C2003 /* BypassSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5E236A9D17A9A4BB009C2003 /* BypassSampleTests.h */,
-				5E236A9E17A9A4BB009C2003 /* BypassSampleTests.m */,
-				5E236A9817A9A4BB009C2003 /* Supporting Files */,
-			);
-			path = BypassSampleTests;
-			sourceTree = "<group>";
-		};
-		5E236A9817A9A4BB009C2003 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E236A9917A9A4BB009C2003 /* BypassSampleTests-Info.plist */,
-				5E236A9A17A9A4BB009C2003 /* InfoPlist.strings */,
+				5E236AD417A9B8D1009C2003 /* sample.markdown */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,19 +183,15 @@
 				5E236ABE17A9B169009C2003 /* UITextView@2x.png */,
 			);
 			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5E236AAD17A9A52E009C2003 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5E236AAF17A9A598009C2003 /* BPAbstractViewController.h */,
-				5E236AB017A9A598009C2003 /* BPAbstractViewController.m */,
-				5E236AB117A9A598009C2003 /* BPMarkdownViewController.h */,
-				5E236AB217A9A598009C2003 /* BPMarkdownViewController.m */,
-				5E236AB317A9A598009C2003 /* BPTextViewController.h */,
-				5E236AB417A9A598009C2003 /* BPTextViewController.mm */,
 			);
 			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		5E236AAE17A9A535009C2003 /* View */ = {
@@ -213,6 +200,24 @@
 				5E236A7A17A9A4BA009C2003 /* MainStoryboard.storyboard */,
 			);
 			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5E236AC317A9B31A009C2003 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		5E236AC517A9B3DA009C2003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E236ACA17A9B3DA009C2003 /* libBypass.a */,
+				5E236ACC17A9B3DA009C2003 /* BypassTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,30 +234,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				5E236ACF17A9B603009C2003 /* PBXTargetDependency */,
 			);
 			name = BypassSample;
 			productName = BypassSample;
 			productReference = 5E236A5F17A9A4BA009C2003 /* BypassSample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5E236A8F17A9A4BB009C2003 /* BypassSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E236AA517A9A4BB009C2003 /* Build configuration list for PBXNativeTarget "BypassSampleTests" */;
-			buildPhases = (
-				5E236A8B17A9A4BB009C2003 /* Sources */,
-				5E236A8C17A9A4BB009C2003 /* Frameworks */,
-				5E236A8D17A9A4BB009C2003 /* Resources */,
-				5E236A8E17A9A4BB009C2003 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E236A9617A9A4BB009C2003 /* PBXTargetDependency */,
-			);
-			name = BypassSampleTests;
-			productName = BypassSampleTests;
-			productReference = 5E236A9017A9A4BB009C2003 /* BypassSampleTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -274,13 +261,35 @@
 			mainGroup = 5E236A5617A9A4B9009C2003;
 			productRefGroup = 5E236A6017A9A4BA009C2003 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E236AC517A9B3DA009C2003 /* Products */;
+					ProjectRef = 5E236AC417A9B3DA009C2003 /* Bypass.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5E236A5E17A9A4BA009C2003 /* BypassSample */,
-				5E236A8F17A9A4BB009C2003 /* BypassSampleTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5E236ACA17A9B3DA009C2003 /* libBypass.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBypass.a;
+			remoteRef = 5E236AC917A9B3DA009C2003 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E236ACC17A9B3DA009C2003 /* BypassTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BypassTests.octest;
+			remoteRef = 5E236ACB17A9B3DA009C2003 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5E236A5D17A9A4BA009C2003 /* Resources */ = {
@@ -298,34 +307,11 @@
 				5E236AC017A9B169009C2003 /* BPMarkdownView@2x.png in Resources */,
 				5E236AC117A9B169009C2003 /* UITextView.png in Resources */,
 				5E236AC217A9B169009C2003 /* UITextView@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E236A8D17A9A4BB009C2003 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E236A9C17A9A4BB009C2003 /* InfoPlist.strings in Resources */,
+				5E236AD517A9B8D1009C2003 /* sample.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5E236A8E17A9A4BB009C2003 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E236A5B17A9A4BA009C2003 /* Sources */ = {
@@ -340,24 +326,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E236A8B17A9A4BB009C2003 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E236A9F17A9A4BB009C2003 /* BypassSampleTests.m in Sources */,
-				5E236AB617A9A598009C2003 /* BPAbstractViewController.m in Sources */,
-				5E236AB817A9A598009C2003 /* BPMarkdownViewController.m in Sources */,
-				5E236ABA17A9A598009C2003 /* BPTextViewController.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E236A9617A9A4BB009C2003 /* PBXTargetDependency */ = {
+		5E236ACF17A9B603009C2003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E236A5E17A9A4BA009C2003 /* BypassSample */;
-			targetProxy = 5E236A9517A9A4BB009C2003 /* PBXContainerItemProxy */;
+			name = Bypass;
+			targetProxy = 5E236ACE17A9B603009C2003 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -377,14 +352,6 @@
 			);
 			name = MainStoryboard.storyboard;
 			path = BypassSample;
-			sourceTree = "<group>";
-		};
-		5E236A9A17A9A4BB009C2003 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E236A9B17A9A4BB009C2003 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,8 +382,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Libraries/Bypass";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -439,8 +408,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Libraries/Bypass";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
 				INFOPLIST_FILE = "BypassSample/BypassSample-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,42 +435,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
 				INFOPLIST_FILE = "BypassSample/BypassSample-Info.plist";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5E236AA617A9A4BB009C2003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BypassSample.app/BypassSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
-				INFOPLIST_FILE = "BypassSampleTests/BypassSampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5E236AA717A9A4BB009C2003 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BypassSample.app/BypassSample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BypassSample/BypassSample-Prefix.pch";
-				INFOPLIST_FILE = "BypassSampleTests/BypassSampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -519,15 +458,6 @@
 			buildConfigurations = (
 				5E236AA317A9A4BB009C2003 /* Debug */,
 				5E236AA417A9A4BB009C2003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E236AA517A9A4BB009C2003 /* Build configuration list for PBXNativeTarget "BypassSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E236AA617A9A4BB009C2003 /* Debug */,
-				5E236AA717A9A4BB009C2003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
