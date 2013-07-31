@@ -1,7 +1,7 @@
 # Bypass Sample using Git Submodules
 
 This sample project shows how to include [Bypass](https://github.com/Uncodin/bypass-ios)
-using git submodules.
+using git submodules. You can also choose to [use CocoaPods](https://github.com/damiancarrillo/bypass-ios-sample-cocoapods).
 
 ## Getting Started
 
